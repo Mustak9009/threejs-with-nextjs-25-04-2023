@@ -4,9 +4,18 @@ export default function Home() {
   return (
    <React.Fragment>
       <div className='relative z-0 bg-primary'>
-        <div>
+        <div className='bg-hero-pattern bg-no-repeat bg-center'>
           <Navbar/>
           <Hero/>
+        </div>
+        <About/>
+        <Experience/>
+        <Tech/>
+        <Works/>
+        <Feedbacks/>
+        <div className='relative z-0'>
+          <Contact/>
+          <StarsCanvas/>
         </div>
       </div>
    </React.Fragment>
