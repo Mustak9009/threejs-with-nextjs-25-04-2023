@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
-import { styles } from "../styles/styles";
+import { styles } from "./styles";
 import Link from "next/link";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../public/assets";

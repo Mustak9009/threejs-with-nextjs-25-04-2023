@@ -1,9 +1,8 @@
-import { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import React from 'react'
 
-const Computers = () => {
-  return <h1>computers</h1>;
-};
+export default function Computers() {
+  return (
+    <div>Computers</div>
+  )
+}
 
-export default Computers;
