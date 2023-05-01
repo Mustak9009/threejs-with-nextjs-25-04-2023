@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { styles } from "../styles/styles";
 import Link from "next/link";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close } from "../public/assets";
 import Image from "next/image";
 type navLinksPropsType = {
   active: string;
@@ -32,7 +32,7 @@ const Navbar = () => {
         <Link href={"/"} className="flex items-center gap-2" onClick={() => {setActive("");window.scrollTo(0, 0); }}>
           <Image src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Adrian&nbsp;<span className="sm:block hidden">|&nbsp;JS Mastery</span> {/*For add space -> &nbsp;*/}
+            Mustak&nbsp;<span className="sm:block hidden">|&nbsp;Web Dev</span> {/*For add space -> &nbsp;*/}
           </p>
         </Link>
         <NavLinks active={active} setActive={setActive} hiddenOrNot={true}/>
